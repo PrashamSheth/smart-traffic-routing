@@ -1,0 +1,5 @@
+model,threshold,conf,precision,recall,f1,count_mae,count_bias
+"v1 (4 classes, 69k train images)",default 0.25,0.2500,0.7611,0.6600,0.7070,2.5628,-1.4615
+"v1 (4 classes, 69k train images)",tuned for counting,0.2500,0.7611,0.6600,0.7070,2.5628,-1.4615
+"v2 (1 class, 1.2k train images)",default 0.25,0.2500,0.6566,0.5445,0.5953,3.2874,-1.8785
+"v2 (1 class, 1.2k train images)",tuned for counting,0.2500,0.6566,0.5445,0.5953,3.2874,-1.8785

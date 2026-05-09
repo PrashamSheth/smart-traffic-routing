@@ -1,0 +1,8 @@
+# simulation and graphs
+numpy
+pandas
+matplotlib
+# vision (training / evaluation)
+ultralytics
+pyyaml
+tqdm

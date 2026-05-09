@@ -1,0 +1,48 @@
+#VRML_SIM R2025a utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/floors/protos/RectangleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/appearances/protos/Parquetry.proto"
+IMPORTABLE EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/vehicles/protos/abstract/SimpleVehicle.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/road/protos/Roundabout.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation 0.0008530856897173406 0.9999983544254026 -0.0016010594281979835 0.9758005148053623
+  position -152.06714257616133 6.334018177461563 195.5444279007725
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  floorSize 175 175
+  floorAppearance Parquetry {
+    type "dark strip"
+  }
+}
+Robot {
+  controller "supervisor_controller"
+  supervisor TRUE
+}
+Roundabout {
+  translation 25 25 0
+  rotation 0 0 1 0.7853996938995746
+}
+Roundabout {
+  translation -25 25 0
+  rotation 0 0 1 0.7853996938995746
+  name "roundabout(1)"
+}
+Roundabout {
+  translation -25 -25 0
+  rotation 0 0 1 0.7853996938995746
+  name "roundabout(2)"
+}
+Roundabout {
+  translation 25 -25 0
+  rotation 0 0 1 0.7853996938995746
+  name "roundabout(3)"
+}
